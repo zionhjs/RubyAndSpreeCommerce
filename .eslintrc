@@ -1,0 +1,27 @@
+---
+extends: standard
+
+globals:
+  Spree: true
+  analytics: true
+  ga: true
+  _: true
+  Select2: true
+  Handlebars: true
+  Raphael: true
+  SpreeAPI: true
+  SpreePaths: true
+  CouponManager: true
+  ThumbnailsCarousel: true
+  Turbolinks: true
+  ADDRESS_FIELDS: true
+  AUTH_TOKEN: true
+  update_state: true
+
+env:
+  browser: true
+  jquery: true
+
+rules:
+  space-before-function-paren: off
+  semi: off
